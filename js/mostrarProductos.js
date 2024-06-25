@@ -31,31 +31,3 @@ mostrarProductos();
 
 
 
-// import { conexionApi } from "./conexionApi.js";
-
-// const listaProductos = document.querySelector("[data-lista]");
-
-// export default function crearCardProductos(nombreProducto,precioVenta,url,imagenProducto){
-//   const producto = document.createElement("li");
-
-//   producto.className="productos_item";
-//   producto.innerHTML = `
-//       <div >
-//         <img  src="${imagenProducto}" alt="">
-//         <h3>${nombreProducto}</h3>
-//         <h4>${precioVenta}</h4>
-//       </div>`;
-
-//   return producto;
-// }
-
-
-// async function mostrarProductos() {
-//   const listaApi = await conexionApi.mostrarProductos()
-
-
-
-//   listaApi.forEach(producto => listaProductos.appendChild(crearCardProductos(producto.nombreProducto, producto.precioVenta, producto.imagenProducto)));
-// }
-
-// mostrarProductos();

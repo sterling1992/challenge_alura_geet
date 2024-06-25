@@ -39,27 +39,3 @@ formulario.addEventListener("submit", crearProducto);
 
 
 
-
-// import { conexionApi } from "./conexionApi.js";
-
-// const formulario = document.querySelector("[data-form]");
-
-// // Captación de los datos ingersador por el formulario para
-// async function crearProducto(evento){
-// evento.preventDefault();
-
-// const nombreProducto = document.querySelector("[data-name-product]").value;
-// const precioVenta = document.querySelector("[data-sales-price]").value;
-// const precioCosto = document.querySelector("[data-cost-price]").value;
-// const imagenProducto = document.querySelector("[data-load-image]").value;
-
-// try{
-// await conexionApi.enviarProducto(nombreProducto,precioVenta,precioCosto,imagenProducto);
-// window.location.href = "../pages/envioExitoso.html";
-// }catch(e){
-// alert(e);
-// }
-
-// }
-
-// formulario.addEventListener("submit", evento => crearProducto(evento));
