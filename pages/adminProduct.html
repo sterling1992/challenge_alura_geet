@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/adminProduct.css">
+    <link rel="stylesheet" href="../css/crearProductos.css">
+    <title>Administrar productos</title>
+</head>
+ 
+<body>
+
+  <header class="container-header">
+    <nav >
+      <a class="logo" href="../index.html" alt="logo viche tabro">
+        <img   src="../img/logo/logo-viche-tabro.png.png" alt="">
+      </a>
+    </nav>
+  </header>
+  
+  <main class="container">
+    <form class="container__form" data-form>
+      <h2 class="title__form"> ¡Crea un nuevo producto!</h2>
+
+      <div class="campo__form">
+        <label class="container__label" for="url">Nombre del producto</label>
+        <input class="container__input" id="product__name" placeholder="Ingrese nombre del producto. Ej: Atún Isabel" 
+         type="text" data-name-product required>
+      </div>
+
+      <div class="campo__form">
+        <label class="container__label" for="url">Precio de venta </label>
+        <input class="container__input" id="prducto__sales__price" placeholder="Ingrese el precio de venta del producto (COP), Ejemplo: 7.000"  
+        type="number" data-sales-price required>
+      </div>
+
+      <div class="campo__form">
+        <label class="container__label" for="url">Precio de cost </label>
+        <input class="container__input" id="prducto__purchase__price" placeholder="Ingrese el precio de costo del producto (COP), Ejemplo: 5.500"  
+        type="number" data-cost-price required>
+      </div>
+
+      <div class="campo__form"  >
+        <label class="container__label" for="url">Cargar imagen </label>
+        <input class="container__input" id="prducto__image" accept=".png, .jpg, .jpeg"  
+        type = "file" data-load-image  style=" background-color: white;" >
+      </div>
+
+      <input class="button__enviar"  type="submit" >
+
+    </form>
+  </main>
+  
+  <script src="../js/crearProductos.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/mostrarProductos.css">
+  <link rel="stylesheet" href="./css/adminProduct.css">
+  <title>Challenge Alura Geek</title>
+</head>
+<body>
+  <header>
+    <nav class="encabezado">
+      <div class="container__logo">
+        <a href="./index.html">
+          <img class="logo" src="./img/logo/INNDICO.png" alt="">
+        </a>
+      </div>
+      <div class="container__buscar">
+        <input type="search" placeholder="Ingrese el nombre de un producto" id="Buscar" class="input__buscar" data-buscar>
+        <button class="button__buscar" data-button-buscar>Buscar</button>
+      </div>
+      <div class="container__incon">
+        <a href="./pages/adminProduct.html">
+          <img src="./img/logo/agregar-producto.png" alt="Icono de agregar nuevos productos" style="width: 40px; height: 40px;">
+        </a>
+      </div>
+    </nav>
+  </header>
+  <ul class="main__container__products" data-lista>
+    
+  </ul>
+  <script src="./js/conexionApi.js" type="module"></script>
+  <script src="./js/mostrarProductos.js" type="module"></script>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/mostrarProductos.css">
+    <link rel="stylesheet" href="./css/adminProduct.css">
+    <title>Challenge Alura Geek</title>
+</head>
+<body>
+
+    <header>
+      <nav class="encabezado">
+        <div class="container__logo">
+          <a href="./index.html">
+            <img class="logo" src="./img/logo/INNDICO.png" alt="">
+          </a>
+        </div>
+
+        <div class="container__buscar">
+          <input type="search" placeholder="Ingrese el nombre de un producto" id="Buscar" class="input__buscar" data-buscar-productos>
+          <button class="button__buscar" data-button-buscar>Buscar</button>
+        </div>
+
+        <div class="container__incon">
+          <a href="./pages/adminProduct.html">
+            <img src="./img/logo/agregar-producto.png" alt="Icono de agregar nuevos productos"
+              style="width: 40px; height: 40px;"
+            >
+          </a>
+        </div>
+
+      </nav>
+    </header>
+
+    <ul class="main-container-productos" data-lista>
+      
+    </ul>
+    <script src="./js/conexionApi.js" type="module"></script>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+</body>
+</html> -->

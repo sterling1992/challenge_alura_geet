@@ -1,0 +1,11 @@
+{
+  "name": "alura-geek",
+  "version": "1.0.0",
+  "description": "Aplicación para Crear, Leer, Actualizar y Eliminar (CRUD) productos de ventas en una tienda sencilla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Klever Arrechea Castillo",
+  "license": "ISC"
+}
